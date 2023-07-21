@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav ul{
+    background-color: rgb(76, 181, 237);
+    text-align: center;
+    display: flex;
+    height: 40px;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+
+}
+.nav li{
+    line-height: 40px;
+    height: 40px;
+    border-bottom: 2px solid rgb(15, 6, 10);
+}
+.nav a{
+    color: rgb(249, 255, 255);
+}
+.nav a:hover{
+    background-color: rgb(239, 229, 217);
+}
+@media and (min-width:600px) {
+    .nav li{
+        width: 40px;
+        display: inline-block;
+    }
+    
+}
+.container .jumbotron{
+    margin: 10px;
+    text-align: center;
+    color: rgb(4, 25, 43);
+    text-decoration: double;
+    background-color: hsl(34, 84%, 74%);
+}
+.buttons{
+    list-style: none;
+    display: flex;
+    justify-content:space-between;
+}
